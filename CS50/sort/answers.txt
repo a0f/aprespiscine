@@ -1,0 +1,31 @@
+sort1 uses: Bubble Sort
+
+How do you know?: Bubble sort is very fast in ideal condition, but alot slower in the worst condition...
+                                                                    Bubble Sort = (O(n^2) and Omega(n))
+
+Tests: Sorted:
+Sorted: 0.63s
+Random: 5.7s
+Reversed: 4.9s
+
+sort2 uses: Merge Sort
+
+
+How do you know?: Was the fastest in all conditions. Also all conditions are approximately the same speed since...
+                                                                    Merge Sort = (O(Nlog(N)) and Omega(N)Log(N))
+
+Tests:
+
+Sorted: 0.47s
+Random: 0.44s
+Reversed: 0.48s
+
+sort3 uses: Selection Sort
+
+How do you know?: Selection sort takes approximately the same time in best and worst case...
+                                                    Selection Sort = (O(n^2) and Omega(n^2))
+
+Sorted: 2.26s
+Random: 2.3s
+Reversed: 2.42s
+
