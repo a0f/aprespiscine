@@ -6,11 +6,11 @@
 /*   By: a0f <a0f@student.42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/03 10:54:28 by a0f               #+#    #+#             */
-/*   Updated: 2024/07/03 11:22:12 by a0f              ###   ########.fr       */
+/*   Updated: 2024/08/16 23:37:28 by a0f              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <string.h>
+#include "libft.h"
 
 void *ft_memset(void *s, int c, size_t n)
 {
@@ -27,15 +27,15 @@ void *ft_memset(void *s, int c, size_t n)
 	return (s);
 }
 
-#include <stdio.h>
+// #include <stdio.h>
 
-int	main(void)
-{
-	size_t n = 5;
-	int c = '0';
-	void *s1[50];
+// int	main(void)
+// {
+// 	size_t n = 5;
+// 	int c = '0';
+// 	void *s1[50];
 
-	ft_memset(s1, c, n);
-	printf("%s\n", (unsigned char*)s1);
+// 	ft_memset(s1, c, n);
+// 	printf("%s\n", (unsigned char*)s1);
 	
-}
+// }

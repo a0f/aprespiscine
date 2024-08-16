@@ -6,7 +6,7 @@
 /*   By: a0f <a0f@student.42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/02 10:04:11 by a0f               #+#    #+#             */
-/*   Updated: 2024/07/02 12:22:50 by a0f              ###   ########.fr       */
+/*   Updated: 2024/08/16 23:37:00 by a0f              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,8 @@ int	ft_isascii(int c)
 	return (0);
 }
 
-#include <stdio.h>
-int	main(void)
-{
-	printf("%i\n", ft_isascii(128));
-}
+// #include <stdio.h>
+// int	main(void)
+// {
+// 	printf("%i\n", ft_isascii(128));
+// }

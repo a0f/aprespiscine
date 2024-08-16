@@ -6,7 +6,7 @@
 /*   By: a0f <a0f@student.42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/12 16:07:41 by a0f               #+#    #+#             */
-/*   Updated: 2024/08/16 18:25:29 by a0f              ###   ########.fr       */
+/*   Updated: 2024/08/16 23:35:59 by a0f              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,9 +32,9 @@ int	ft_atoi(const char *nptr)
 	}
 	return (value * sign);
 }
-#include <stdio.h>
-int main(void)
-{
-	char str[] = " \t \n \v \r \f  -1776.5324";
-	printf("%i\n", ft_atoi(str));
-}
+// #include <stdio.h>
+// int main(void)
+// {
+// 	char str[] = " \t \n \v \r \f  -1776.5324";
+// 	printf("%i\n", ft_atoi(str));
+// }

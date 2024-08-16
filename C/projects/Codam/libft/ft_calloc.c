@@ -6,26 +6,26 @@
 /*   By: a0f <a0f@student.42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/15 20:24:22 by a0f               #+#    #+#             */
-/*   Updated: 2024/08/16 17:37:12 by a0f              ###   ########.fr       */
+/*   Updated: 2024/08/16 23:36:50 by a0f              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
-#include <stdio.h>
-void *ft_memset(void *s, int c, size_t n)
-{
-    size_t i;
-	unsigned char *ptr;
-	i = 0;
+// void *ft_memset(void *s, int c, size_t n)
+// {
+//     size_t i;
+// 	unsigned char *ptr;
+// 	i = 0;
 
-	ptr = (unsigned char *)s;
-	while (i < n)
-	{
-		ptr[i] = c;
-		i++;  
-	}
-	return (s);
-}
+// 	ptr = (unsigned char *)s;
+// 	while (i < n)
+// 	{
+// 		ptr[i] = c;
+// 		i++;  
+// 	}
+// 	return (s);
+// }
+
+#include "libft.h"
 
 void *ft_calloc(size_t nmemb, size_t size)
 {
@@ -43,16 +43,16 @@ void *ft_calloc(size_t nmemb, size_t size)
     return (ptr);
 }
 
-int main(void)
-{
-    int *ptr;
-    int nmemb;
-    int size;
+// int main(void)
+// {
+//     int *ptr;
+//     int nmemb;
+//     int size;
 
-    nmemb = 5;
-    size = sizeof(int);
+//     nmemb = 5;
+//     size = sizeof(int);
     
-    ptr = ft_calloc(nmemb, size);
+//     ptr = ft_calloc(nmemb, size);
 
-    printf("%i\n", ptr[4]);
-}
+//     printf("%i\n", ptr[4]);
+// }

@@ -6,7 +6,7 @@
 /*   By: a0f <a0f@student.42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/02 10:04:11 by a0f               #+#    #+#             */
-/*   Updated: 2024/07/02 12:25:32 by a0f              ###   ########.fr       */
+/*   Updated: 2024/08/16 23:36:56 by a0f              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,8 +20,8 @@ int	ft_isalnum(int c)
 	return (0);
 }
 
-#include <stdio.h>
-int	main(void)
-{
-	printf("%i\n", ft_isalnum('5'));
-}
+// #include <stdio.h>
+// int	main(void)
+// {
+// 	printf("%i\n", ft_isalnum('5'));
+// }

@@ -6,7 +6,7 @@
 /*   By: a0f <a0f@student.42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/02 10:04:11 by a0f               #+#    #+#             */
-/*   Updated: 2024/07/02 12:25:40 by a0f              ###   ########.fr       */
+/*   Updated: 2024/08/16 22:39:29 by a0f              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,8 @@ int	ft_toupper(int c)
 	return (c);
 }
 
-#include <stdio.h>
-int	main(void)
-{
-	printf("%c\n", ft_toupper('z'));
-}
+// #include <stdio.h>
+// int	main(void)
+// {
+// 	printf("%c\n", ft_toupper('z'));
+// }

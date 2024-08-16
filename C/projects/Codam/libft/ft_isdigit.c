@@ -6,7 +6,7 @@
 /*   By: a0f <a0f@student.42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/02 10:04:11 by a0f               #+#    #+#             */
-/*   Updated: 2024/07/02 10:22:00 by a0f              ###   ########.fr       */
+/*   Updated: 2024/08/16 22:40:21 by a0f              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,8 @@ int	ft_isdigit(int c)
 	return (0);
 }
 
-#include <stdio.h>
-int	main(void)
-{
-	printf("%i\n", ft_isdigit('x'));
-}
+// #include <stdio.h>
+// int	main(void)
+// {
+// 	printf("%i\n", ft_isdigit('x'));
+// }

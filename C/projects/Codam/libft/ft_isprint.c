@@ -6,7 +6,7 @@
 /*   By: a0f <a0f@student.42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/02 10:04:11 by a0f               #+#    #+#             */
-/*   Updated: 2024/07/02 12:24:36 by a0f              ###   ########.fr       */
+/*   Updated: 2024/08/16 22:40:19 by a0f              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,8 +19,8 @@ int	ft_isprint(int c)
 	return (0);
 }
 
-#include <stdio.h>
-int	main(void)
-{
-	printf("%i\n", ft_isprint(' '));
-}
+// #include <stdio.h>
+// int	main(void)
+// {
+// 	printf("%i\n", ft_isprint(' '));
+// }

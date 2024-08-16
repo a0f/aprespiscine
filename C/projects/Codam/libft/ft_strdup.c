@@ -6,12 +6,11 @@
 /*   By: a0f <a0f@student.42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/16 17:33:11 by a0f               #+#    #+#             */
-/*   Updated: 2024/08/16 17:47:58 by a0f              ###   ########.fr       */
+/*   Updated: 2024/08/16 23:37:46 by a0f              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
-#include <stdio.h>
+#include "libft.h"
 
 char *ft_strdup(const char *s)
 {
@@ -35,13 +34,13 @@ char *ft_strdup(const char *s)
     return (str);
 }
 
-int main(void)
-{
-    char str[] = "Hey you should duplicate this whole thing.";
-    char *dupe;
+// int main(void)
+// {
+//     char str[] = "Hey you should duplicate this whole thing.";
+//     char *dupe;
         
-    dupe = ft_strdup(str);
-    printf("%s\n", dupe);
-    free(dupe);
-    return (0);    
-}
+//     dupe = ft_strdup(str);
+//     printf("%s\n", dupe);
+//     free(dupe);
+//     return (0);    
+// }

@@ -6,11 +6,11 @@
 /*   By: a0f <a0f@student.42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/02 12:26:37 by a0f               #+#    #+#             */
-/*   Updated: 2024/07/02 12:36:23 by a0f              ###   ########.fr       */
+/*   Updated: 2024/08/16 23:38:42 by a0f              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
+#include "libft.h"
 
 size_t	ft_strlen(const char *s)
 {
@@ -26,10 +26,10 @@ size_t	ft_strlen(const char *s)
 	return (len);
 }
 
-#include <stdio.h>
-int	main(void)
-{
-	char s1[] = "Hello world!";
+// #include <stdio.h>
+// int	main(void)
+// {
+// 	char s1[] = "Hello world!";
 
-	printf("%li\n", ft_strlen(s1));
-}
+// 	printf("%li\n", ft_strlen(s1));
+// }
