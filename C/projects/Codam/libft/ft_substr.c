@@ -6,7 +6,7 @@
 /*   By: a0f <a0f@student.42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/16 19:54:52 by a0f               #+#    #+#             */
-/*   Updated: 2024/08/16 23:51:13 by a0f              ###   ########.fr       */
+/*   Updated: 2024/08/17 16:02:56 by a0f              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,8 +58,8 @@ char *ft_substr(char const *s, unsigned int start, size_t len)
     return (str);
 }
 
-int main(void)
-{
-    char const str[] = "You gotta find this x and take the string after.";
-    printf("%s\n", ft_substr(str, 47, 4));
-}
+// int main(void)
+// {
+//     char const str[] = "You gotta find this x and take the string after.";
+//     printf("%s\n", ft_substr(str, 47, 4));
+// }

@@ -1,0 +1,40 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug build",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "gdb",
+      "miDebuggerPath": "/usr/bin/gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set output to decimal",
+          "text": "set output-radix 10"
+        },
+        {
+          "description": "Enable pretty-printing of complex structures",
+          "text": "set print pretty on"
+        }
+      ],
+      "preLaunchTask": "build",
+      "logging": {
+        "trace": true,
+        "traceResponse": true,
+        "engineLogging": true
+      },
+      "internalConsoleOptions": "openOnSessionStart"
+    }
+  ]
+}
